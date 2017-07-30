@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script type="text/javascript" src="d3/d3.v4.js"></script>
+    <link rel="stylesheet" href="css/basic.css">
+  </head>
+
+  <body>
+    <div class="main-content-medium">
+      <div class="chart-header">
+        <h2>Forbes 500 : Go Explore!</h2>
+      </div>
+      <div class="navigation">
+        <a href="first.html" class="left">Prev</a>
+        <a href="third.html" class="right">Next</a>
+      </div>
+      <div class="main-content">
+        <div class="chart-description">
+          <p>Lets take a look at all the metrics along with the rank in a parallel-coordinates chart.</p>
+          <p>A parallel coordinate chart makes it easier to look at multi-dimensional data.</p>
+          <p>You can use your mouse to <strong>brush</strong> along one or more axes to explore the data. To clear any active brush, just click above/below the brush area on the same axis.</p>
+          <p>If you select companies with higher rank (smaller values), you will notice that they tend to have higher values for most of the metrics.</p>
+          <p>Sorry about the bad font-color for the marks on axes, working to improve the readability.</p>
+          <p>Go explore!</p>
+        </div>
+
+        <div id="main-chart">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>CS498: Data Visualization Project - Dharmendra Kumar</h4>
+    </div>
+  </body>
+
+  <!-- Include here to avoid writing onready -->
+  <script type="text/javascript" src="js/second.js"></script>
+</html>

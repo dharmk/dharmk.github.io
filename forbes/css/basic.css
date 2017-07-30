@@ -1,0 +1,180 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+.chart {
+  background: #fff;
+  font: 10px sans-serif;
+  shape-rendering: crispEdges;
+}
+.chart text {
+    fill: black;
+}
+.axis line, .axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    text-shadow: 0 1px 0 #fff;
+    cursor: move;
+}
+
+.tick text {
+    font: 10px "Roboto", sans-serif;
+    font-weight: 200;
+    fill: #999;
+}
+
+.axis-label {
+    font: 12px sans-serif;
+    font-weight: 800;
+    text-shadow: 0 1px 0 #fff;
+    cursor: move;
+    text-anchor: middle;
+}
+
+.market-value {
+  fill: #e66101;
+}
+
+.assets {
+  fill: #fdb863;
+}
+
+.sales {
+  fill: #b2abd2;
+}
+
+.profits {
+  fill: #5e3c99;
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+.main-content-medium, .footer {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.footer {
+  font-size: 10px;
+  text-align: right;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.navigation {
+  height: 25px;
+}
+
+.main-content {
+  padding-top: 10px;
+  background: white;
+  -moz-box-shadow: 1px 1px 10px #ccc;
+  -webkit-box-shadow: 1px 1px 10px #ccc;
+  box-shadow: 1px 1px 10px #ccc;
+}
+
+.chart-header {
+  text-align: center;
+}
+
+.chart-description {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Parallel */
+svg {
+  font: 10px sans-serif;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+  stroke: steelblue;
+}
+
+.brush .extent .selection {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+  width: 24px;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+/* Parallel - End*/
+
+.tooltip {
+  position: absolute;
+  width: 100px;
+  padding: 8px;
+  margin-top: -20px;
+  font: 10px sans-serif;
+  background: #ffffe5;
+  pointer-events: none;
+  -moz-box-shadow: 1px 1px 4px #ccc;
+  -webkit-box-shadow: 1px 1px 4px #ccc;
+  box-shadow: 1px 1px 4px #ccc;
+  visibility: hidden;
+}
+
+.annotation {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  margin-top: -20px;
+  font: 10px sans-serif;
+  background: #ece7f2;
+  pointer-events: none;
+
+  -moz-box-shadow: 1px 1px 4px #ccc;
+  -webkit-box-shadow: 1px 1px 4px #ccc;
+  box-shadow: 1px 1px 4px #ccc;
+}
+
+#main-chart-annotations {
+  min-height: 100px;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.selectable:hover {
+  cursor: pointer;
+}

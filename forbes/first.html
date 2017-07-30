@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <script type="text/javascript" src="d3/d3.v4.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/area.js"></script>
+    <link rel="stylesheet" href="css/basic.css">
+  </head>
+
+  <body>
+    <div class="main-content-medium">
+      <div class="chart-header">
+        <h2>Forbes 500 : The 10000 feet view</h2>
+      </div>
+      <div class="navigation">
+        <a href="../index.html" class="left">Home</a>
+        <a href="second.html" class="right">Next</a>
+      </div>
+      <div class="main-content">
+        <div class="chart-description">
+          <p>Lets take a look at the various metrics for each company in the top 500 list. </p>
+          <p>On this page we are plotting the various metrics like Market Value, Assets, Sales and Profits for each company along the Y-axis. The companies are sorted along the x-axis according to its rank.</p>
+          <p>In general the overall values seem correlated with the company rank giving a hint that the scores for each of the category are combined in a linear fashion to arrive at the final rank.</p>
+          <p>Although we see some spikes for some attributes for some companies ranked slightly lower but thats because they didn't fair well in the remaining categories</p>
+        </div>
+
+        <div id="main-chart">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>CS498: Data Visualization Project - Dharmendra Kumar</h4>
+    </div>
+  </body>
+
+  <!-- Include here to avoid writing onready -->
+  <script type="text/javascript" src="js/first.js"></script>
+</html>
