@@ -148,4 +148,4 @@ function brush(type) {
   });
 }
 
-readCSV("/data/forbes_500_full.csv", onDataLoaded);
+readCSV("./data/forbes_500_full.csv", onDataLoaded);
