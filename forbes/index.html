@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CS498 Data Visualization Project - Inside Forbes Global 500</title>
+	<meta name="author" content="Dharmendra Kumar" />
+	<meta name="description" content="CS498 Data Visualization Project - Inside Forbes Global 500" />
+	<meta name="keywords"  content="CS498,Data Visualization,Forbes 500" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#main-content').fullpage({
+				sectionsColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2', 'f2f2f2', '#f2f2f2']
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="main-content">
+	<div class="section active" id="section0">
+    <h1>Inside Forbes Global 2000</h1>
+    <br/>
+    <h4>Dharmendra Kumar, University of Illinois, CS-498: Data Visualization Final Project</h5>
+		<br/>
+		<h5><strong>Scroll down or click <a href="#section1" class="right">Next</a> to begin</strong></h5>
+  </div>
+	<div class="section" id="section1">
+			<h3 class="article-header">What is Forbes 2000?</h3>
+			<div class="article aligncenter ">
+				<h4>The Forbes Global 2000 is an annual ranking of the top 2,000 public companies in the world by Forbes magazine.</h4>
+				<br/>
+				<h4>These companies are ranked by various metrics like its <strong>Assets</strong>, <strong>Market Value</strong>, <strong>Sales</strong> and <strong>Profits</strong>.</h4>
+				<br/>
+				<h4>The Forbes Global 2000 is a useful indicator of which are the leading public companies in the world, but it is only an interpretation, as only public companies are listed. The results are not definitive; any change to the criteria would produce a different list.</h4>
+				<br/>
+				<h4>Reference : <a target="_blank" href="https://www.forbes.com/2011/04/20/global-2000-11-methodology.html">Forbes 2000: Methodology</a></h4>
+				<br/>
+				<h4><strong>Data Source: </strong>Data has been downloaded from Kaggle's public datasets section. <br/>Link: <a target="_blank" href="https://www.kaggle.com/ash316/forbes-top-2000-companies">Forbes 2000 Dataset</a></h4>
+				<br/>
+				<pre>
+This contains the Forbes 2000 companies for 3 years viz 2013-2015-2017.
+The attributes in the dataset are:
+
+Rank- Rank of the company for that year
+Company- Name of the company
+Country- Country it belongs to
+Sales- Sales that corresponding year
+Market Values- Market value in billions
+Profit- Profit earned that year
+Assests- Total revenue the company has
+Sector- Expertise of the company like Finance or Technology,etc.
+			</pre>
+			<br/>
+			<h4>For this project I am using only one year data</h4>
+			</div>
+			<br/>
+			<div class="navigation">
+				<a href="#section2" class="right">Next</a>
+			</div>
+	</div>
+	<div class="section" id="section2">
+		<h3 class="article-header">What am I trying to do?</h3>
+		<div class="article aligncenter ">
+			<h4>I am using a subset of this data to gain insights about the top 500 companies using the concepts learned as part of CS 498 - Data Visualization course from University of Illinois, Urbana Champaign. As part of this data-visualization project I am doing the following:</h4>
+			<br/>
+			<h4>1. Select the top 500 companies.</h4>
+			<br/>
+			<h4>2. Analyse the data to gain some insights about the ranking metrics.</h4>
+			<br/>
+			<h4>3. Gain insights about the Profit margins across various sectors and variances.</h4>
+			<br/>
+			<h4>A <strong>Martini Glass</strong> structure has been used for this final project. It starts with a basic introduction of the area, some insights about the data and then allows the user to further explore the dataset on one's own.</h4>
+			<br/>
+			<h4>Everything has been done from scratch using D3 library, including all chart types, annotations, tooltips and interactivity.</h4>
+			<br/>
+			<h4>Utility classes have been created for each element of visualization for consistency across the entire project.</h4>
+			<br/>
+			<h4>However, since the project is slightly big, some legends, tooltips and annotations are missing from few places. I am in the process of updating all the charts but representative usage are present for each during the course of entire project. Also interactivity has been added only on the last dashboard which is representative of using a parameter and triggers.</h4>
+			<br/>
+			<h4>Click <a href='dv/first.html'>here</a> to start.</h4>
+		</div>
+		<br/>
+		<div class="navigation">
+			<a href="dv/first.html" class="right">Begin</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
