@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CS498 Data Visualization Project - Inside Forbes Global 500</title>
+	<meta name="author" content="Dharmendra Kumar" />
+	<meta name="description" content="CS498 Data Visualization Project - Inside Forbes Global 500" />
+	<meta name="keywords"  content="CS498,Data Visualization,Forbes 500" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#main-content').fullpage({
+				sectionsColor: ['#f2f2f2', '#f2f2f2', '#f2f2f2', 'f2f2f2', '#f2f2f2']
+			});
+		});
+	</script>
+	<title>About the Visualization</title>
+</head>
+<body>
+<div class="section fp-section active fp-completely" id="About" data-anchor="fifthpage" style="height: 500px; padding-bottom: 10px;">
+  <h3>About this visualisation</h3>
+  <div id="about1" style="background-color: rgba(0, 255, 255, 0); float: left; width: 49%; margin-right: 1% ">
+      <h4>Structure of the Narrative Visualization</h4>
+      <p>
+          The narrative visualization presented here uses the Martini glass structure.
+          It starts with a basic introduction of the area, some insights about the data and then allows the user to further explore the dataset on one's own on the last dashboard.
+      </p>
+      <h4>Scenes</h4>
+      <p>
+          As mentioned above the visualization contains five scenes. The first scens provides a high level visualization of the data, second scene presents a parallel coordinate chart to allow multi-dimensional visualization easy.
+          Third and fourth scenes use a force directed layout to provide more insights in the variance for profits overall and across each sector. The final scene provides a dashboard for users with three linked charts to explore the data on one's own.
+          I have also added some slides in the beginning to set the context and provide information about the data and problem domain as well as there is also a summary slide added in the end.
+      </p>
+      <h4>Annotations</h4>
+      <p>
+          Specific annotations are used in some charts to provide contextual details. Tooltips are also added in all the charts.
+          The colors for the tooltips are annotations are chosen so as they appear soft on eyes. Consistency is maintained across all the charts by abstracting both the tooltip and annotation classes.
+      </p>
+  </div>
+  <div id="about2" style="background-color: rgba(156, 48, 255, 0); float: right; width: 49%; margin-left: 1%">
+      <h4>Parameters</h4>
+      <p> The last scens is an interactive dashboard with three charts. The top chart is a bar chart which shows average profits across each sector.
+        The other two charts show the profit for companies in the selected sector, which is used as a parameter here. The selection of the paramter is implicit, one needs to click on any sector's bar to activate it.
+      </p>
+      <h4>Triggers</h4>
+      <p>
+          The interactive dashboard uses sector as a parameter. The selection of sector is used as a trigger to update the other two linked charts which shows the top and bottom 20 companies in the selected sector with respect to the profit rates.
+      </p>
+      <h4>Design Choices</h4>
+      <p>Colors for the charts are selected using ColorBrewer. Specific care has been taken to select correct colors (ordinal/quantitative).
+        The canvas used for all the charts use soft colors for background information. It also provides dotted lines for minor values to make it easier to read the data.
+        For comparing the profits across sectors note that I have used a force directed layout and not a sorted bar chart. This was done mostly because the no of data points were large and FDL provided a simpler more visually appealing layout which serves the purpose.
+      </p>
+
+  </div>
+</div>
+</body>
