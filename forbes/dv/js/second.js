@@ -126,6 +126,7 @@ function drawParallelCoordinatePlot(data) {
      g
      .append("text")
        .style("text-anchor", "middle")
+       .style("font-weight", 800)
        .attr("y", height + 25)
        .text(function(d) {
          return titles[d];
