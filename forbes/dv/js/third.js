@@ -44,9 +44,9 @@ var margins = {top: 20, right: 50, bottom: 60, left: 60},
        height,
        margins,
        {'x': xScale, 'y': yScale},
-       {'bottom': bAxis, 'left': lAxis, 'top': tAxis, 'right': rAxis},
+       {'bottom': bAxis, 'left': null, 'top': tAxis, 'right': null},
        {'bottom': "Profits (in %)",
-         'left': "Market Value (in Billion $)",
+         'left': "",
          'top': "",
          'right': ''});
    canvas.render(d3.select("#main-chart"));
