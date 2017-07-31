@@ -1,5 +1,10 @@
+/**
+ * @author Dharmendra Kumar
+ * Simple bar chart with tooltips
+ */
 var BarChart = function(width, height, x, y, c, xField, yField, cField, data, selectable, cbk) {
   var tooltip = new Tooltip(d3.select("body"));
+  var bars;
 
   function mouseover(d) {
     var text;
@@ -44,18 +49,7 @@ var BarChart = function(width, height, x, y, c, xField, yField, cField, data, se
   this.render = function(parent) {
     // Select only top 10
     // append the rectangles for the bar chart
-    this.data(parent, data);
-
-  }
-
-  this.data = function(parent, data, x1) {
-    if(x1) {
-      x = x1;
-    }
-    parent.selectAll(".bar").remove();
-    parent.selectAll(".bar-text").remove();
-
-    var bars = parent.selectAll(".bar")
+    bars = parent.selectAll(".bar")
         .data(data)
       .enter().append("rect")
         .attr("class", "bar")
@@ -69,25 +63,34 @@ var BarChart = function(width, height, x, y, c, xField, yField, cField, data, se
         bars.attr("class", "bar selectable")
           .on('click', click);
       }
+      this.data(parent, data);
+  }
 
-      bars.transition(3000)
-        .ease(d3.easeCubic)
-        .attr("x", function(d) {
-          return x(d[xField]);
-        })
-        .attr("width", x.bandwidth())
-        .attr("y", function(d) {
-          var val = d[yField];
-          if(val > 0)
-            return y(val);
-          return y(0);
-        })
-        .attr("fill", function(d) { return c(d[cField])})
-        .attr("height", function(d) {
-          var val = d[yField];
-          return Math.abs(y(val) - y(0));
-        });
+  this.data = function(parent, data, x1) {
+    if(x1) {
+      x = x1;
+    }
+    parent.selectAll(".bar-text").remove();
 
+    parent.selectAll(".bar")
+      .data(data)
+      .transition(3000)
+      .ease(d3.easeCubic)
+      .attr("x", function(d) {
+        return x(d[xField]);
+      })
+      .attr("width", x.bandwidth())
+      .attr("y", function(d) {
+        var val = d[yField];
+        if(val > 0)
+          return y(val);
+        return y(0);
+      })
+      .attr("fill", function(d) { return c(d[cField])})
+      .attr("height", function(d) {
+        var val = d[yField];
+        return Math.abs(y(val) - y(0));
+      }).on("end", function() {
         parent.selectAll(".bar-text")
           .data(data)
           .enter()
@@ -108,5 +111,6 @@ var BarChart = function(width, height, x, y, c, xField, yField, cField, data, se
           .attr("x", function(d) {
             return x(d[xField]);
           });
+      });
   }
 };

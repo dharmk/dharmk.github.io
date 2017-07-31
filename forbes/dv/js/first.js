@@ -15,8 +15,8 @@ readCSV('./data/forbes_500_full.csv', function(data) {
   var scales = {};
 
   var xmax = d3.max(data, function(d) { return parseInt(d.Rank); });
-  var xmin = d3.min(data, function(d) { return parseInt(d.Rank); });
-  var xScale = d3.scaleLinear().domain([xmin, xmax]).range([0, width]).nice();
+  //var xmin = d3.min(data, function(d) { return parseInt(d.Rank); });
+  var xScale = d3.scaleLinear().domain([0, xmax]).range([0, width]).nice();
   var bAxis = d3.axisBottom().scale(xScale);
   var tAxis = d3.axisTop().scale(xScale);
 

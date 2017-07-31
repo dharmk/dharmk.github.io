@@ -9,6 +9,7 @@
      width = 920,
      height = 700;
 
+var tooltip = new Tooltip(d3.select("body"));
 var x = d3.scaleOrdinal(),
     y = {},
     actives = [],
@@ -41,9 +42,32 @@ function path(d) {
   return line(dimensions.map(function(p) { return [x(p), y[p](d[p])]; }));
 }
 
+function mouseover(d) {
+  // Bad hardcoding
+  if(d) {
+    var text = "<strong>" + d.Company + "</strong>"
+      + "<br/>Rank: <strong>" + d.Rank + "</strong>"
+      + "<br/>Profit: <strong>" + d.Profits + "</strong>"
+      + "<br/>MarketValue: <strong>" + d.MarketValue + "</strong>"
+      + "<br/>Assets: <strong>" + d.Assets + "K</strong>"
+      + "<br/>Sale: <strong>" + d.Sales + "</strong>";
+
+    tooltip.show(200,
+      null,
+      d3.event.pageX,
+      d3.event.pageY,
+      text);
+  }
+}
+
+function mouseout(d) {
+  tooltip.hide();
+}
+
 function drawParallelCoordinatePlot(data) {
   var numericalColumns = [0, 3, 4, 5, 6];
-  var nominalColumns = [1, 2, 7, 8];
+  var nominalColumns = [1, 2, 7, 8, 9];
+  var tooltip = new Tooltip(d3.select("body"));
 
   var svg = d3.select("#main-chart")
   .append("svg")
@@ -80,7 +104,9 @@ function drawParallelCoordinatePlot(data) {
       .selectAll("path")
         .data(data)
       .enter().append("path")
-        .attr("d", path);
+        .attr("d", path)
+        .on('mousemove', mouseover)
+        .on('mouseout', mouseout);
 
     // Add a group element for each dimension.
      var g = svg.selectAll(".dimension")
