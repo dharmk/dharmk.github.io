@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script type="text/javascript" src="d3/d3.v4.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/fdl.js"></script>
+    <script type="text/javascript" src="js/annotation.js"></script>
+    <script type="text/javascript" src="js/tooltip.js"></script>
+    <script type="text/javascript" src="js/fdl-legend.js"></script>
+    <link rel="stylesheet" href="css/basic.css">
+    <title>Forbes 500 : Variance in Profits</title>
+  </head>
+
+  <body>
+    <div class="main-content-medium">
+      <div class="chart-header">
+        <h2>Forbes 500 : Variance in Profits</h2>
+      </div>
+      <div class="navigation">
+        <a href="second.html" class="left">Prev</a>
+        <a href="fourth.html" class="right">Next</a>
+      </div>
+      <div class="main-content">
+        <div class="chart-description">
+          <p>In this section we are trying to show the profits margins for the top 500 companies in a single chart. Notice that there is a lot of variance and some of them even were in loss. The annotations below mark some of these observations.</p>
+          <p><strong>Apple</strong> makes the highest profit (45%) and <strong>Unicredit Group</strong> is the one with the highest loss (13%).</p>
+        </div>
+
+        <div id="main-chart">
+        </div>
+
+        <div id="main-chart-annotations">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>CS498: Data Visualization Project - Dharmendra Kumar</h4>
+    </div>
+  </body>
+
+  <!-- Include here to avoid writing onready -->
+  <script type="text/javascript" src="js/third.js"></script>
+</html>

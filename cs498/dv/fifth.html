@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script type="text/javascript" src="d3/d3.v4.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/barchart.js"></script>
+    <script type="text/javascript" src="js/annotation.js"></script>
+    <script type="text/javascript" src="js/tooltip.js"></script>
+    <link rel="stylesheet" href="css/basic.css">
+    <title>Forbes 500 : Exploration Dashboard</title>            
+  </head>
+
+  <body>
+    <div class="main-content-medium">
+      <div class="chart-header">
+        <h2>Forbes 500 : Exploration Dashboard</h2>
+      </div>
+      <div class="navigation">
+        <a href="fourth.html" class="left">Prev</a>
+        <a href="summary.html" class="right">Next</a>
+      </div>
+      <div class="main-content">
+        <div class="chart-description">
+          <p>On this dashboard we are trying to find out the most profitable sectors and top/bottom 10 companies across each.</p>
+          <p><strong>Sector is a parameter</strong> for the top 10 and bottom 10 companies charts. <strong>Click on any of the sectors to select it</strong> and trigger the update of top and bottom 10 companies in that sector.</p>
+          <p>Legends are not added on these charts yet, make use of the tooltips to get more Information. Each color represents an individual sector.</p>
+          <p>Selected sector is highlighted with a thick stroke around it.</p>
+          <p>Can you figure out the company with the best and the worst profit across all sectors?</p>
+        </div>
+
+        <div id="main-chart">
+        </div>
+
+        <div id="main-chart-annotations">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>CS498: Data Visualization Project - Dharmendra Kumar</h4>
+    </div>
+  </body>
+
+  <!-- Include here to avoid writing onready -->
+  <script type="text/javascript" src="js/fifth.js"></script>
+</html>

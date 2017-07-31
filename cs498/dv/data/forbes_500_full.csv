@@ -1,0 +1,501 @@
+Rank,Company,Country,Sales,Profits,Assets,MarketValue,Sector,Industry,Continent
+1,ICBC,China,151.4,42,3473.2,229.8,Financials,Major Banks,Asia
+2,China Construction Bank,China,134.2,35,3016.6,200.5,Financials,Regional Banks,Asia
+3,Berkshire Hathaway,United States,222.9,24.1,620.9,409.9,Financials,Investment Services,North America
+4,JPMorgan Chase,United States,102.5,24.2,2513,306.6,Financials,Major Banks,North America
+5,Wells Fargo,United States,97.6,21.9,1943.4,274.4,Financials,Major Banks,North America
+6,Agricultural Bank of China,China,115.7,27.8,2816,149.2,Financials,Regional Banks,Asia
+7,Bank of America,United States,92.2,16.6,2196.8,231.9,Financials,Major Banks,North America
+8,Bank of China,China,113.1,24.9,2611.5,141.3,Financials,Major Banks,Asia
+9,Apple,United States,217.5,45.2,331.1,752,Information Technology,Computer Hardware,North America
+10,Toyota Motor,Japan,249.9,17.1,412.5,171.9,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+11,AT&T,United States,163.8,13,403.8,249.3,Telecommunication Services,Telecommunications services,North America
+12,Citigroup,United States,84,14.7,1795.1,164.3,Financials,Major Banks,North America
+13,Exxon Mobil,United States,197.5,7.8,330.3,343.2,Energy,,North America
+14,General Electric,United States,119.7,10,365.2,261.2,Industrials,Conglomerates,North America
+15,Samsung Electronics,South Korea,174,19.3,217.1,254.3,Information Technology,Semiconductors,Asia
+16,Ping An Insurance Group,China,106.6,9.5,801,100.8,Financials,Diversified Insurance,Asia
+17,Wal-Mart Stores,United States,485.3,13.6,198.8,221.1,Consumer Discretionary,Discount Stores,North America
+18,Verizon Communications,United States,126,13.1,244.2,198.4,Telecommunication Services,Telecommunications services,North America
+19,Microsoft,United States,85.3,16.8,224.6,507.5,Information Technology,Software & Programming,North America
+20,Royal Dutch Shell,Netherlands,234.8,4.7,411.3,228.8,Energy,Oil & Gas Operations,Europe
+21,Allianz,Germany,115.7,7.6,935.9,83.7,Financials,Diversified Insurance,Europe
+22,China Mobile,Hong Kong,106.8,16.4,218.9,225.3,Telecommunication Services,Telecommunications services,Asia
+23,BNP Paribas,France,74.7,8.4,2190.7,80.5,Financials,Major Banks,Europe
+24,Alphabet,United States,89.9,19.5,167.5,579.5,Information Technology,,North America
+25,China Petroleum & Chemical,China,255.7,7,216.7,105.1,Energy,,Asia
+26,Total,France,128.1,6.2,231,128.1,Energy,Oil & Gas Operations,Europe
+27,AXA Group,France,132.2,6.2,925.9,60.8,Financials,Diversified Insurance,Europe
+28,Daimler,Germany,169.5,9.4,256.3,76.1,Consumer Discretionary,Auto & Truck Manufacturers,Europe
+29,Volkswagen Group,Germany,240.3,5.7,458.7,72.9,Consumer Discretionary,Auto & Truck Manufacturers,Europe
+30,Mitsubishi UFJ Financial,Japan,49.2,8.2,2589.8,83.9,Financials,Major Banks,Asia
+31,Comcast,United States,80.4,8.7,180.5,193.5,Consumer Discretionary,Broadcasting & Cable,North America
+32,Johnson & Johnson,United States,71.9,16.4,141.2,338.6,Health Care,Medical Equipment & Supplies,North America
+33,Banco Santander,Spain,48.3,6.9,1412.4,89.4,Financials,Major Banks,Europe
+34,Bank of Communications,China,53,10.1,1209.2,62.2,Financials,Major Banks,Asia
+35,Nestle,Switzerland,90.8,8.7,129.8,229.5,Consumer Staples,Food Processing,Europe
+36,UnitedHealth Group,United States,184.9,7.2,125,160.2,Health Care,Managed Health Care,North America
+37,Nippon Telegraph & Tel,Japan,105,7.4,180.3,92.2,Telecommunication Services,Telecommunications services,Asia
+38,ItaíëŒ_ Unibanco Holding,Brazil,61.3,6.7,419.9,79.2,Financials,,Africa
+39,Softbank,Japan,82.1,8.3,213.2,78.6,Telecommunication Services,Telecommunications services,Asia
+40,Gazprom,Russia,91.4,12.1,265.4,51.8,Energy,Oil & Gas Operations,Asia
+41,General Motors,United States,166.4,9.4,221.7,50.8,Consumer Discretionary,Auto & Truck Manufacturers,North America
+42,China Merchants Bank,China,44.5,9.4,855.1,66.4,Financials,Major Banks,Asia
+43,IBM,United States,79.9,11.9,117.5,162.4,Information Technology,Computer Services,North America
+44,Royal Bank of Canada,Canada,35.3,8.3,891.1,107.2,Financials,Major Banks,North America
+45,Japan Post Holdings,Japan,123.7,3.1,2522.1,55.1,Consumer Discretionary,,Asia
+46,Procter & Gamble,United States,65.2,9.5,117,228.1,Consumer Staples,Household/Personal Care,North America
+47,Pfizer,United States,52.8,7.1,171.6,203.1,Health Care,Pharmaceuticals,North America
+48,HSBC Holdings,United Kingdom,62.1,2.5,2375,162.6,Financials,Major Banks,Europe
+49,Goldman Sachs Group,United States,36.9,7.4,860.2,90.6,Financials,Investment Services,North America
+50,Siemens,Germany,88.4,6.4,133.1,109.8,Industrials,Conglomerates,Europe
+51,BMW Group,Germany,104.2,7.6,210.3,57.7,Consumer Discretionary,Auto & Truck Manufacturers,Europe
+52,China Life Insurance,China,82.8,2.9,388.7,98.1,Financials,Life & Health Insurance,Asia
+53,ING Group,Netherlands,53.6,5.1,891.3,57.9,Financials,Life & Health Insurance,Europe
+54,Intel,United States,59.4,10.3,113.3,170.4,Information Technology,Semiconductors,North America
+55,Postal Savings Bank Of China,China,48,6,1189.4,55.2,Financials,,Asia
+56,Sberbank,Russia,43,8.1,415.6,63.9,Financials,Regional Banks,Asia
+57,TD Bank Group,Canada,31.9,6.9,910.4,92,Financials,Major Banks,North America
+58,Cisco Systems,United States,48.6,9.8,126.2,165.1,Information Technology,Communications Equipment,North America
+59,Commonwealth Bank,Australia,30.9,7.1,703.6,109.9,Financials,Major Banks,Australia
+60,Morgan Stanley,United States,37.9,6,816,78.3,Financials,Investment Services,North America
+61,Novartis,Switzerland,48.5,6.7,130.4,193.2,Health Care,Pharmaceuticals,Europe
+62,Banco Bradesco,Brazil,70.2,4.3,362.4,53.5,Financials,Regional Banks,Africa
+63,Industrial Bank,China,44.3,8.1,872.1,45.1,Financials,Regional Banks,Asia
+64,Ford Motor,United States,151.8,4.6,238,44.7,Consumer Discretionary,Auto & Truck Manufacturers,North America
+65,Shanghai Pudong Development,China,40.1,8,842.8,50.5,Financials,Regional Banks,Asia
+66,CVS Health,United States,177.5,5.3,94.5,79.8,Financials,,North America
+67,Walt Disney,United States,54.9,9,91.6,178,Consumer Discretionary,Broadcasting & Cable,North America
+68,Prudential,United Kingdom,96.9,2.6,569,53.7,Financials,Life & Health Insurance,Europe
+69,Prudential Financial,United States,56.3,4.3,784,45.6,Financials,Life & Health Insurance,North America
+70,Oracle,United States,37.4,8.9,125.4,182.2,Information Technology,Software & Programming,North America
+71,China State Construction Engineering,China,140.8,4.9,201.4,43.2,Industrials,,Asia
+72,Citic Pacific,Hong Kong,49.1,5.6,933.6,41.4,Materials,Iron & Steel,Asia
+73,Boeing,United States,94.6,4.9,90,108.8,Industrials,Aerospace & Defense,North America
+74,Honda Motor,Japan,127.9,3.9,161.8,51.4,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+75,China Minsheng Banking,China,40.2,7.2,848.7,43.7,Financials,Regional Banks,Asia
+76,Westpac Banking Group,Australia,27.8,5.5,642.7,86.1,Financials,Major Banks,Australia
+77,Deutsche Telekom,Germany,80.9,3,156.6,80,Telecommunication Services,Telecommunications services,Europe
+78,China Citic Bank,China,39.7,6.3,853.5,43.1,Financials,Regional Banks,Asia
+79,Roche Holding,Switzerland,51.3,9.7,75.6,219.3,Health Care,Pharmaceuticals,Europe
+80,UBS,Switzerland,38,3.4,920,60,Financials,Investment Services,Europe
+81,Bank of Nova Scotia,Canada,26.7,5.5,680.3,70.5,Financials,Major Banks,North America
+82,Rosneft,Russia,74.9,2.7,193.2,62.4,Energy,Oil & Gas Operations,Asia
+83,Amazon.com,United States,136,2.4,86,427,Consumer Discretionary,Internet & Catalog Retail,North America
+84,PepsiCo,United States,62.8,6.3,74.1,159.4,Consumer Staples,Beverages,North America
+85,Sumitomo Mitsui Financial,Japan,30.5,5.2,1648.8,48.1,Financials,Major Banks,Asia
+86,Coca-Cola,United States,41.5,6.5,87.3,182.9,Consumer Staples,Beverages,North America
+87,United Technologies,United States,57.4,5,89.7,90.6,Industrials,Conglomerates,North America
+88,Sanofi,France,37.4,5.2,110.4,116.1,Health Care,Pharmaceuticals,Europe
+89,Bayer,Germany,51.8,5,90.1,94.4,Materials,Diversified Chemicals,Europe
+90,Mizuho Financial,Japan,29,6,1752.3,44.4,Financials,Major Banks,Asia
+91,Zurich Insurance Group,Switzerland,67.3,3.2,364.3,40,Financials,Diversified Insurance,Europe
+92,ANZ,Australia,26.5,4.2,701,68.8,Financials,Major Banks,Australia
+93,BASF,Germany,63.7,4.5,83.9,91,Materials,Diversified Chemicals,Europe
+94,Walgreens Boots Alliance,United States,116.1,4.2,72.5,89,Consumer Discretionary,,North America
+95,Nissan Motor,Japan,105.9,4.5,157.3,38.4,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+96,US Bancorp,United States,22,5.9,451,86.6,Financials,Major Banks,North America
+97,American Express,United States,34,5.4,158.9,70.1,Financials,Consumer Financial Services,North America
+98,Hon Hai Precision,Taiwan,135.2,4.6,80.4,54.4,Information Technology,Electronics,Asia
+99,Enel,Italy,75.9,2.8,164.1,47.5,Utilities,Electric Utilities,Europe
+100,Merck,United States,39.6,3.9,95.4,173.3,Health Care,Pharmaceuticals,North America
+101,National Australia Bank,Australia,24.2,4.3,595.3,65,Financials,Major Banks,Australia
+102,PetroChina,China,214.8,1.2,344.9,204.5,Energy,Oil & Gas Operations,Asia
+103,Unilever,Netherlands,58.3,5.7,59.5,143.9,Consumer Staples,Food Processing,Europe
+104,Hyundai Motor,South Korea,80.7,4.7,148.1,34.2,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+105,BBVA-Banco Bilbao Vizcaya,Spain,27.3,3.8,771.9,49.6,Financials,Major Banks,Europe
+106,Reliance Industries,India,41.8,4.3,97.9,71.2,Energy,Oil & Gas Operations,Asia
+107,Charter Communications,United States,29,3.5,153.2,101.6,Consumer Discretionary,Broadcasting & Cable,North America
+108,SAIC Motor,China,112.7,4.8,85,43.5,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+109,Chubb,Switzerland,31.9,4.1,159.8,64,Financials,Property & Casualty Insurance,Europe
+110,Telefíë_nica,Spain,57.6,2.6,130.4,55.9,Telecommunication Services,,Europe
+111,AIA Group,Hong Kong,26.5,4.2,183,77.1,Financials,Life & Health Insurance,Asia
+112,SociíëŒ©tíëŒ© GíëŒ©níëŒ©rale,France,28,4,1457.9,39.9,,,Europe
+113,Dow Chemical,United States,48.1,4.3,79.5,77,Materials,Diversified Chemicals,North America
+114,Home Depot,United States,94.6,8,43,176.7,Consumer Discretionary,Home Improvement Retail,North America
+115,Lloyds Banking Group,United Kingdom,23.4,2.8,1010.5,55.9,Financials,Major Banks,Europe
+116,Medtronic,Ireland,29.4,4,97.6,110,Health Care,Medical Equipment & Supplies,Europe
+117,Kraft Heinz Company,United States,26.5,3.6,120.5,110.4,Consumer Staples,,North America
+118,Saudi Basic Industries,Saudi Arabia,35.4,4.8,84.5,80.7,Materials,Diversified Chemicals,Asia
+119,Facebook,United States,27.6,9.5,65,407.3,Information Technology,Computer Services,North America
+120,Munich Re,Germany,68.8,2.9,286.9,30.5,Financials,Diversified Insurance,Europe
+121,Intesa Sanpaolo,Italy,24.8,3.4,764.8,45.3,Financials,Major Banks,Europe
+122,Barclays,United Kingdom,29.2,2.4,1499,45.4,Financials,Major Banks,Europe
+123,Rio Tinto,United Kingdom,33.9,4.7,89.3,72.9,Materials,Diversified Metals & Mining,Europe
+124,BHP Billiton,Australia,34,2.4,119.5,98.3,Materials,Diversified Metals & Mining,Australia
+125,CK Hutchison,Hong Kong,33.5,4.3,130.7,47.4,Energy,,Asia
+126,Anheuser-Busch InBev,Belgium,45.6,1.2,261.1,213.1,Consumer Staples,Beverages,Europe
+127,Taiwan Semiconductor,Taiwan,29.4,10.4,58.5,161.7,Information Technology,Semiconductors,Asia
+128,Capital One Financial,United States,27.9,3.7,357,40.3,Financials,Consumer Financial Services,North America
+129,LukOil,Russia,74.6,3.1,83.2,44.6,Energy,Oil & Gas Operations,Asia
+130,Swiss Re,Switzerland,43.6,3.6,207.6,32.1,Financials,Diversified Insurance,Europe
+131,Amgen,United States,22.7,7.7,77.6,120.3,Health Care,Biotechs,North America
+132,Banco do Brasil,Brazil,57.3,2.3,430.6,29,Financials,Major Banks,Africa
+133,Bank of Montreal,Canada,19.7,3.8,531.1,48.6,Financials,Major Banks,North America
+134,Gilead Sciences,United States,30.3,13.5,57,87,Health Care,Biotechs,North America
+135,China Communications Construction,China,64.1,2.5,115.3,38.8,Industrials,Construction Services,Asia
+136,Honeywell International,United States,39.3,4.7,54.1,94.6,Industrials,Conglomerates,North America
+137,Manulife,Canada,38.9,2.2,511.3,34.4,Consumer Discretionary,,North America
+138,Korea Electric Power,South Korea,51.9,6.1,147.2,25.5,Utilities,Electric Utilities,Asia
+139,Generali Group,Italy,90.5,2.3,553,23.7,Financials,Diversified Insurance,Europe
+140,Alibaba,China,21.5,5.7,70.7,264.9,Telecommunication Services,,Asia
+141,KDDI,Japan,43.2,5.1,52.3,68.3,Telecommunication Services,Telecommunications services,Asia
+142,China Telecom,China,53,2.7,93.9,40.4,Telecommunication Services,Telecommunications services,Asia
+143,AbbVie,United States,25.6,5.9,66.1,104.5,Health Care,Pharmaceuticals,North America
+144,Tokio Marine Holdings,Japan,44.6,2.8,189.5,30.6,Financials,Property & Casualty Insurance,Asia
+145,Iberdrola,Spain,32.3,3,112.5,46.4,Utilities,Electric Utilities,Europe
+146,EDF,France,78.8,2.5,297.1,23.3,Utilities,Electric Utilities,Europe
+147,PNC Financial Services,United States,16.1,3.9,369.4,57.9,Financials,Regional Banks,North America
+148,Tencent Holdings,China,22.8,6.2,57,277.1,Information Technology,Computer Services,Asia
+149,Allergan,Ireland,15,15,129,80.1,Health Care,Pharmaceuticals,Europe
+150,China Everbright Bank,China,26.1,4.6,578.5,26.8,Financials,Regional Banks,Asia
+151,Credit Agricole,France,18.6,3.5,1607.7,36.5,Financials,Major Banks,Europe
+152,Lockheed Martin,United States,49.9,3.8,47.8,78.3,Industrials,Aerospace & Defense,North America
+153,Time Warner,United States,29.3,3.9,66,76.2,Consumer Discretionary,Broadcasting & Cable,North America
+154,Duke Energy,United States,22.7,2.7,132.8,57.6,Utilities,Electric Utilities,North America
+155,Anthem,United States,85.2,2.5,65.1,44,,,North America
+156,Vale,Brazil,27.1,3.8,99.1,45.4,Materials,Iron & Steel,Africa
+157,Nordea Bank,Sweden,15.1,4.2,649.6,45.4,Financials,Regional Banks,Europe
+158,Express Scripts,United States,100.5,3.4,51.7,39.9,Health Care,Healthcare Services,North America
+159,United Parcel Service,United States,60.5,3.4,40.4,91.3,Industrials,Air Courier,North America
+160,Aetna,United States,63.2,2.3,69.1,45.1,Health Care,Managed Health Care,North America
+161,China Shenhua Energy,China,26.5,3.4,82.3,54.1,Materials,Diversified Metals & Mining,Asia
+162,VINCI,France,42.6,2.8,72.9,43.6,Industrials,Construction Services,Europe
+163,Bank of New York Mellon,United States,15.6,3.5,333.5,48.8,Financials,Major Banks,North America
+164,Renault,France,56.7,3.8,107.7,24.6,Consumer Discretionary,Auto & Truck Manufacturers,Europe
+165,China Railway Group,China,95.4,1.9,108.6,29.6,Industrials,Construction Services,Asia
+166,EADS,Netherlands,73.7,1.1,126.2,59.5,Industrials,Aerospace & Defense,Europe
+167,China Railway Construction,China,93.2,2.1,109.3,26.5,Industrials,Construction Services,Asia
+168,China Vanke,China,33.7,3.1,119.5,30.5,Financials,Real Estate,Asia
+169,Jardine Matheson,Hong Kong,37.1,2.5,71.5,47.6,Industrials,Conglomerates,Asia
+170,Qualcomm,United States,23.8,4.9,52.4,83.2,Information Technology,Semiconductors,North America
+171,Hewlett Packard Enterprise,United States,48.8,3.2,76.7,30.4,Information Technology,,North America
+172,British American Tobacco,United Kingdom,19.9,6.3,49.1,123.8,Consumer Staples,Tobacco,Europe
+173,Visa,United States,16,6,63.4,206.4,Financials,Consumer Financial Services,North America
+174,China Pacific Insurance,China,40.3,1.8,144,33.5,Financials,Life & Health Insurance,Asia
+175,MetLife,United States,64.7,0.8,905.2,57.2,Financials,Diversified Insurance,North America
+176,AstraZeneca,United Kingdom,23,3.7,62.5,75.2,Health Care,Pharmaceuticals,Europe
+177,Altria Group,United States,19.3,14.2,45.9,138.8,Consumer Staples,Tobacco,North America
+178,SAP,Germany,24.4,4,46.7,119.7,Information Technology,Software & Programming,Europe
+179,Costco Wholesale,United States,121.2,2.4,35.6,74.9,Consumer Discretionary,Discount Stores,North America
+180,Travelers,United States,27.7,3,101.7,33.6,,,North America
+181,Philip Morris International,United States,26.7,6.9,36.9,176.2,Consumer Staples,Tobacco,North America
+182,Union Pacific,United States,19.9,4.2,56.8,86.8,Industrials,Railroads,North America
+183,Delta Air Lines,United States,39.6,4.4,58.9,33,Industrials,Airline,North America
+184,Southern Company,United States,19.9,2.5,109.7,49.3,,,North America
+185,Lowe's,United States,65,3.1,34.4,71.1,Energy,,North America
+186,National Grid,United Kingdom,21.9,2.9,81.7,48,Utilities,Natural Gas Utilities,Europe
+187,Legal & General Group,United Kingdom,105.5,1.7,571.2,18.2,Financials,Life & Health Insurance,Europe
+188,McKesson,United States,196.5,2,57.9,30.5,Health Care,Pharmaceuticals,North America
+189,Christian Dior,France,43.7,2,68.3,42.7,Consumer Discretionary,Apparel/Accessories,Europe
+190,PTT PCL,Thailand,48.7,2.6,63.4,32.4,Energy,Oil & Gas Operations,Asia
+191,Dai-ichi Life Insurance,Japan,55.7,1.7,438.8,19.9,Financials,Life & Health Insurance,Asia
+192,Twenty-First Century Fox,United States,28.1,3.1,49.2,57.5,,,North America
+193,Canadian Imperial Bank,Canada,14.6,3.6,393.7,34.5,Financials,Major Banks,North America
+194,FedEx,United States,57.6,1.9,46.8,52.3,Industrials,Air Courier,North America
+195,GlaxoSmithKline,United Kingdom,37.6,1.2,73,99.8,Health Care,Pharmaceuticals,Europe
+196,Deutsche Post,Germany,63.4,2.9,40.6,41,Industrials,Air Courier,Europe
+197,3M,United States,30.1,5.1,32.9,113.5,Industrials,Conglomerates,North America
+198,L'OríëŒ©al Group,France,28.6,3.4,37.6,107.5,Industrials,,Europe
+199,Aflac,United States,22.7,2.7,129.8,29.2,Financials,Life & Health Insurance,North America
+200,Allstate,United States,36.3,1.9,110.4,29.6,Financials,Diversified Insurance,North America
+201,Hitachi,Japan,85.8,1.8,82.7,25.6,Information Technology,Electronics,Asia
+202,Brookfield Asset Management,Canada,24.9,1.6,159.8,35.4,Financials,Real Estate,North America
+203,BT Group,United Kingdom,31.7,3.1,54,38.5,Telecommunication Services,Telecommunications services,Europe
+204,NextEra Energy,United States,15.2,2.9,90,60.4,Utilities,Electric Utilities,North America
+205,BlackRock,United States,11.2,3.2,220.2,62.6,Financials,Investment Services,North America
+206,Continental,Germany,44.9,3.1,39.4,42.7,Consumer Discretionary,Auto & Truck Parts,Europe
+207,MS&AD Insurance,Japan,47.8,2,178.3,19.2,Financials,Property & Casualty Insurance,Asia
+208,Aviva,United Kingdom,74.3,0.949,511.1,25.9,Financials,Life & Health Insurance,Europe
+209,Cigna,United States,39.7,1.9,60.3,39,Health Care,Managed Health Care,North America
+210,Phillips 66,United States,71.2,1.5,51.7,39.9,Energy,Oil & Gas Operations,North America
+211,Valero Energy,United States,75.7,2.3,46.8,29.4,Energy,Oil & Gas Operations,North America
+212,Enbridge,Canada,26.1,1.6,64,69.3,Energy,Oil Services & Equipment,North America
+213,Mondelä‰åíÍz International,United States,25.9,1.6,61.5,67.4,Consumer Discretionary,,North America
+214,People's Insurance Company,China,64.6,2.1,129.7,17.5,Financials,Property & Casualty Insurance,Asia
+215,McDonald's,United States,24.6,4.7,31,106.4,Consumer Discretionary,Restaurants,North America
+216,ArcelorMittal,Luxembourg,56.8,1.8,75.1,25.1,Materials,Iron & Steel,Europe
+217,East Japan Railway,Japan,26.5,2.3,66.1,34.2,Industrials,Railroads,Asia
+218,Itochu,Japan,44,2.4,72,22.4,Industrials,Trading Companies,Asia
+219,Japan Tobacco,Japan,19.7,3.9,40.7,66.4,Consumer Staples,Tobacco,Asia
+220,EI du Pont de Nemours,United States,24.6,2.5,40,69.2,Materials,Diversified Chemicals,North America
+221,Eli Lilly,United States,21.2,2.7,38.8,94.1,Health Care,,North America
+222,Panasonic,Japan,66.6,1.9,52.7,26.2,Consumer Discretionary,Consumer Electronics,Asia
+223,Sun Hung Kai Properties,Hong Kong,13.4,5,80.1,43.6,Financials,Real Estate,Asia
+224,Fiat Chrysler Automobiles,United Kingdom,122.8,2,110.1,15.5,,,Europe
+225,LafargeHolcim,Switzerland,27.3,1.8,68.5,35.4,Consumer Discretionary,,Europe
+226,Qatar National Bank,Qatar,11.7,3.4,197.6,37.7,Financials,Regional Banks,Asia
+227,Target,United States,69.5,2.7,37.4,29.4,Consumer Discretionary,Discount Stores,North America
+228,Fresenius,Germany,32.2,1.8,49,43.9,Health Care,Medical Equipment & Supplies,Europe
+229,Danaher,United States,19.9,2.6,45.3,59.7,Industrials,Conglomerates,North America
+230,Danske Bank,Denmark,11.7,2.9,494.2,31.9,Financials,Major Banks,Europe
+231,General Dynamics,United States,31.4,3,32.9,57,Industrials,Aerospace & Defense,North America
+232,Reynolds American,United States,12.5,6.1,51.1,90.6,Consumer Staples,Tobacco,North America
+233,Denso,Japan,41.1,2.2,43.6,33.6,Consumer Discretionary,Auto & Truck Parts,Asia
+234,Bristol-Myers Squibb,United States,19.4,4.5,33.7,88,Health Care,Pharmaceuticals,North America
+235,CRRC,China,34.2,1.7,48.7,42.6,,,Asia
+236,ABB,Switzerland,33.8,2,39.7,49.9,Industrials,Conglomerates,Europe
+237,Exelon,United States,32.2,1.1,114.9,33.3,Utilities,Electric Utilities,North America
+238,Cathay Financial,Taiwan,29,1.5,252.2,19.8,Financials,Life & Health Insurance,Asia
+239,Sun Life Financial,Canada,19.9,1.9,188.7,21.9,Financials,Life & Health Insurance,North America
+240,Repsol,Spain,38.4,1.9,68.4,23.8,Energy,,Europe
+241,Kroger,United States,115.3,1.9,37.5,27.3,Consumer Staples,Food Retail,North America
+242,Abbott Laboratories,United States,20.9,1.4,55,75.7,Health Care,Pharmaceuticals,North America
+243,HCA Holdings,United States,41.5,2.9,33.8,32.6,Health Care,Healthcare Services,North America
+244,State Bank of India,India,43.7,0.667,493.3,36.5,Financials,Regional Banks,Asia
+245,DBS Group,Singapore,10.3,3.1,333.5,34.4,Financials,Major Banks,Asia
+246,Oil & Natural Gas,India,19.9,2.2,57.7,37.2,Energy,Oil & Gas Operations,Asia
+247,American Airlines Group,United States,40.2,2.7,51.3,21.1,Financials,,North America
+248,BB&T,United States,11.3,2.4,221.2,35.6,Financials,Regional Banks,North America
+249,Nike,United States,33.8,4.1,23.2,91.2,Financials,,North America
+250,Schneider Electric,France,27.3,1.9,44.1,41.9,Industrials,Electrical Equipment,Europe
+251,Thermo Fisher Scientific,United States,18.3,2,45.9,59.9,Utilities,Precision Healthcare Equipment,North America
+252,Danone,France,24.3,1.9,46.4,42,Consumer Staples,Food Processing,Europe
+253,Samsung Life Insurance,South Korea,24.1,1.8,219.1,18.2,Financials,Life & Health Insurance,Asia
+254,Air Liquide,France,20.1,2,46.5,45,Materials,Specialized Chemicals,Europe
+255,Huaxia Bank,China,15.9,3,340.9,17.6,Financials,Regional Banks,Asia
+256,Orix,Japan,22.8,2.4,95.5,19.8,Financials,Consumer Financial Services,Asia
+257,Bank of Beijing,China,13.4,2.7,306.3,21.5,Financials,Regional Banks,Asia
+258,HDFC Bank,India,11.4,2,110.3,57.4,Financials,Regional Banks,Asia
+259,KBC Group,Belgium,11.3,2.7,290.3,27.6,Financials,Major Banks,Europe
+260,Deere & Company,United States,26.7,1.5,56.3,34.8,Consumer Staples,,North America
+261,Diageo,United Kingdom,15.2,3.2,37.4,71.2,Consumer Staples,Beverages,Europe
+262,Central Japan Railway,Japan,16.1,3.4,51,32.6,Industrials,Railroads,Asia
+263,Liberty Global,United Kingdom,20,1.7,68.7,31.2,Consumer Discretionary,Broadcasting & Cable,Europe
+264,Indian Oil,India,54.1,1.7,37.3,30,Energy,Oil & Gas Operations,Asia
+265,Shinhan Financial Group,South Korea,14.2,2.4,327.6,20,Financials,Investment Services,Asia
+266,Canon,Japan,31.3,1.4,44.1,41.6,Industrials,Business Products & Supplies,Asia
+267,Synchrony Financial,United States,15.1,2.3,90.2,26.9,Financials,,North America
+268,Saint-Gobain,France,43.2,1.5,46.2,28,Materials,Construction Materials,Europe
+269,United Continental Holdings,United States,36.6,2.3,45.4,22.3,Industrials,Airline,North America
+270,Carnival,United States,16.5,3,38.7,43.9,Consumer Discretionary,Hotels & Motels,North America
+271,HP,United States,48.7,2.5,28.2,29.4,Information Technology,,North America
+272,Accenture,Ireland,35.7,3.8,20.1,77.8,Information Technology,Computer Services,Europe
+273,Country Garden Holdings,Hong Kong,23,1.7,85.1,20.3,Financials,Real Estate,Asia
+274,State Street,United States,10.6,2.1,242.7,30.1,Financials,Investment Services,North America
+275,Volvo Group,Sweden,35.3,1.5,44.7,28.6,Industrials,Heavy Equipment,Europe
+276,Inditex,Spain,25.7,3.5,21.2,112.1,Consumer Discretionary,Apparel/Footwear Retail,Europe
+277,Seven & I Holdings,Japan,53.9,0.894,49.2,37,Consumer Staples,Food Retail,Asia
+278,Mitsubishi Electric,Japan,39.1,1.9,34.1,29.9,Industrials,Electrical Equipment,Asia
+279,Bridgestone,Japan,30.7,2.4,31.9,31.7,Consumer Discretionary,Auto & Truck Parts,Asia
+280,PG&E,United States,17.7,1.4,70.9,34,Utilities,Electric Utilities,North America
+281,Cardinal Health,United States,127.2,1.4,35,26,Health Care,Pharmaceuticals,North America
+282,Telstra,Australia,18.6,4.1,30.2,40.7,Telecommunication Services,Telecommunications services,Australia
+283,Dominion Resources,United States,11.4,2.1,71.6,48.7,Utilities,Electric Utilities,North America
+284,Nomura,Japan,14.8,1.5,369.1,21.2,Financials,,Asia
+285,Raytheon,United States,24.1,2.2,30.1,44.9,Industrials,Aerospace & Defense,North America
+286,Henkel,Germany,20.7,2.3,30,52,Consumer Staples,Household/Personal Care,Europe
+287,Marathon Petroleum,United States,56,1.2,44.4,26.4,Energy,Oil & Gas Operations,North America
+288,Merck,Germany,16.6,1.8,41.1,49.1,Health Care,Pharmaceuticals,Europe
+289,Peugeot,France,59.8,1.9,48.2,16.9,Consumer Discretionary,Auto & Truck Manufacturers,Europe
+290,Tata Motors,India,41.2,1.7,39.5,24.9,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+291,Archer Daniels Midland,United States,62.4,1.3,39.8,25.6,Consumer Staples,Food Processing,North America
+292,CNP Assurances,France,30.7,1.2,428.1,13.8,Financials,Diversified Insurance,Europe
+293,Natixis,France,14.6,1.5,556.7,19.1,Financials,Major Banks,Europe
+294,China Huarong Asset Management,China,13.5,3,203.2,16.6,Financials,,Asia
+295,Imperial Tobacco Group,United Kingdom,39.2,0.896,42.5,46.5,Consumer Staples,Tobacco,Europe
+296,BCE,Canada,16.4,2.3,37.4,40.5,Telecommunication Services,Telecommunications services,North America
+297,Northrop Grumman,United States,24.5,2.2,28,41.7,Industrials,Aerospace & Defense,North America
+298,LyondellBasell Industries,United Kingdom,29.2,3.8,23.4,35.8,Materials,Diversified Chemicals,Europe
+299,Posco,South Korea,45.8,1.1,66,19.2,Materials,Iron & Steel,Asia
+300,Telecom Italia,Italy,21,2,74.3,18.1,Telecommunication Services,Telecommunications services,Europe
+301,Oversea-Chinese Banking,Singapore,8.6,2.5,283.7,28.8,Financials,Regional Banks,Asia
+302,KB Financial Group,South Korea,13.5,1.8,312,17.9,Financials,Investment Services,Asia
+303,Charles Schwab,United States,7.6,1.9,223.4,53.3,Financials,Investment Services,North America
+304,Orange,France,45.3,0.552,101.5,40.4,Financials,,Europe
+305,Surgutneftegas,Russia,13.9,7.8,60.9,18.5,Energy,Oil & Gas Operations,Asia
+306,Sompo,Japan,29.4,1.7,91.1,14.4,Financials,,Asia
+307,Gas Natural Fenosa,Spain,25.6,1.5,49.7,21.7,Utilities,Natural Gas Utilities,Europe
+308,WPP,United Kingdom,19.4,1.9,42.7,27.4,Consumer Discretionary,Advertising,Europe
+309,Bank Of Shanghai,China,10.9,2.1,236.3,20.7,Financials,,Asia
+310,ICICI Bank,India,11.9,1.6,138.9,25.1,Financials,Regional Banks,Asia
+311,Poly Real Estate,China,22.4,2,68.3,16.6,Financials,Real Estate,Asia
+312,Hyundai Mobis,South Korea,33,2.6,34.5,18.9,Consumer Discretionary,Auto & Truck Parts,Asia
+313,DNB,Norway,8.7,2.2,308.2,25.6,Financials,Regional Banks,Europe
+314,Philips,Netherlands,27.1,1.6,34.1,28.9,Industrials,Conglomerates,Europe
+315,AmerisourceBergen,United States,148.3,1.3,33.9,19,Health Care,Pharmaceuticals,North America
+316,Heineken Holding,Netherlands,23,1.7,42.1,23,Consumer Staples,Beverages,Europe
+317,CRH,Ireland,30.1,1.4,33.3,29,Materials,Construction Materials,Europe
+318,Discover Financial Services,United States,10.5,2.4,92.8,25.3,Financials,Consumer Financial Services,North America
+319,Safran,France,18.2,2.1,32.8,32.2,Industrials,Aerospace & Defense,Europe
+320,Etisalat,United Arab Emirates,14.3,2.3,33.4,42.7,Telecommunication Services,Telecommunications services,Asia
+321,CaixaBank,Spain,11,1.2,367,25.7,Financials,Regional Banks,Europe
+322,Eaton,Ireland,19.7,1.9,30.4,33.4,Industrials,Other Industrial Equipment,Europe
+323,Fubon Financial,Taiwan,15.4,1.5,196.5,16.1,Financials,Investment Services,Asia
+324,Sumitomo,Japan,38.2,1.1,67.7,16.8,Financials,,Asia
+325,SunTrust Banks,United States,8.9,1.9,204.9,27.2,Financials,Regional Banks,North America
+326,Greenland Holdings Group,China,32.8,1.2,99.6,14.3,Financials,,Asia
+327,China Cinda Asset Management,China,13.4,2.3,169,14.7,Financials,,Asia
+328,Anglo American,United Kingdom,21.5,1.6,50.1,19.8,Materials,Diversified Metals & Mining,Europe
+329,China Resources Land,Hong Kong,14.5,2.5,55.1,19.8,Financials,Real Estate,Asia
+330,Royal Ahold Delhaize N.V.,Netherlands,55,0.918,38.3,26,Utilities,,Europe
+331,SingTel,Singapore,11.9,2.8,33,45.2,Telecommunication Services,Telecommunications services,Asia
+332,United Overseas Bank,Singapore,8.2,2.2,235.4,25.6,Financials,Regional Banks,Asia
+333,Subaru,Japan,29.8,2.8,22.7,27.3,Financials,,Asia
+334,Automatic Data Processing,United States,12.1,1.7,40,45.9,Consumer Discretionary,,North America
+335,Midea Group,China,23.9,2.2,24.5,31.5,Utilities,,Asia
+336,Linde,Germany,18.7,1.3,39,31.3,Materials,Diversified Chemicals,Europe
+337,KIA Motors,South Korea,45.4,2.4,42.1,12.6,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+338,Hartford Financial Services,United States,18.1,0.896,225.2,17.9,Financials,Diversified Insurance,North America
+339,Southwest Airlines,United States,20.4,2.2,24.8,33.6,Industrials,Airline,North America
+340,AmíëŒ©rica Míë_vil,Mexico,52.2,0.463,73.6,47.3,Financials,,North America
+341,Principal Financial Group,United States,12.5,1.3,228,18,Financials,Life & Health Insurance,North America
+342,Fannie Mae,United States,108.3,12.3,3288,2.8,Financials,Investment Services,North America
+343,Ameriprise Financial,United States,11.7,1.3,139.8,19.9,Financials,Investment Services,North America
+344,Macquarie Group,Australia,10.6,1.5,147.8,21.2,Financials,Investment Services,Australia
+345,Carrefour,France,87.1,0.825,51.5,16.6,Consumer Staples,Food Retail,Europe
+346,Celgene,United States,11,2,28.1,97.7,Health Care,Biotechs,North America
+347,China Evergrande Group,China,32.4,0.764,194.4,14.6,Health Care,,Asia
+348,Takeda Pharmaceutical,Japan,15.9,1.2,35.5,36.9,Health Care,Pharmaceuticals,Asia
+349,SK Hynix,South Korea,14.8,2.5,26.7,32,Information Technology,Semiconductors,Asia
+350,Saudi Telecom,Saudi Arabia,13.8,2.3,27.1,37.3,Telecommunication Services,Telecommunications services,Asia
+351,Tyson Foods,United States,36.9,1.9,22.3,24.2,Consumer Staples,Food Processing,North America
+352,Sinohydro Group,China,34.6,0.862,71.2,16.5,Industrials,Construction Services,Asia
+353,Reckitt Benckiser Group,United Kingdom,13.3,2.5,22.3,64.1,Consumer Staples,Household/Personal Care,Europe
+354,CSX,United States,11.1,1.7,36,43.8,Industrials,Railroads,North America
+355,Freddie Mac,United States,69.8,7.8,2023.4,1.5,Financials,Investment Services,North America
+356,Lincoln National,United States,13.4,1.2,263.5,14.8,Financials,Life & Health Insurance,North America
+357,Kinder Morgan,United States,12.9,0.704,80.3,48.1,Energy,Oil Services & Equipment,North America
+358,Power Corp of Canada,Canada,35.4,0.856,311.2,10.8,Financials,Life & Health Insurance,North America
+359,BP,United Kingdom,183.8,0.115,263.3,114.7,Energy,Oil & Gas Operations,Europe
+360,Chevron,United States,110.5,-0.497,260.1,206.1,Energy,Oil & Gas Operations,North America
+361,Michelin Group,France,23.1,1.8,26.7,21.6,Consumer Discretionary,Auto & Truck Parts,Europe
+362,Cheung Kong Property Holdings,Hong Kong,9,2.5,51.2,26.2,Financials,,Asia
+363,SK Holdings,South Korea,72.1,0.66,85.3,14.7,Energy,Oil & Gas Operations,Asia
+364,Gree Electric Appliances,China,15.3,2.1,27.2,27.7,Consumer Discretionary,Household Appliances,Asia
+365,BAE Systems,United Kingdom,24,1.2,29.1,25.6,Industrials,Aerospace & Defense,Europe
+366,Bank Of Jiangsu,China,9.7,1.6,230,16.6,Financials,,Asia
+367,Edison International,United States,11.9,1.3,51.3,26.1,Utilities,Electric Utilities,North America
+368,Kansai Electric Power,Japan,28.3,1.6,58.5,11.3,Utilities,Electric Utilities,Asia
+369,New China Life Insurance,China,22,0.751,100.5,17.6,Financials,Life & Health Insurance,Asia
+370,Starbucks,United States,21.7,2.9,14,84.6,Consumer Discretionary,Restaurants,North America
+371,Centrica,United Kingdom,36.6,2.3,27.1,14.8,Utilities,Natural Gas Utilities,Europe
+372,Biogen,United States,10.5,3.7,22.9,58,Health Care,,North America
+373,Canadian National Railway,Canada,9.1,2.7,28,55.9,Industrials,Railroads,North America
+374,HDFC,India,8.1,1.6,64.9,36.7,Financials,Consumer Financial Services,Asia
+375,Novo Nordisk,Denmark,16.6,5.6,13.8,88.2,Health Care,Pharmaceuticals,Europe
+376,Swedbank,Sweden,6.3,2.3,237.1,25.1,Financials,Major Banks,Europe
+377,Tata Consultancy Services,India,17.4,3.9,14.5,74.5,Information Technology,Computer Services,Asia
+378,Monsanto,United States,14.5,1.9,21.4,50.9,Materials,Specialized Chemicals,North America
+379,Mastercard,United States,10.8,4.1,18.7,121.3,Information Technology,,North America
+380,Femsa,Mexico,20.9,1.1,26.5,33.1,Consumer Staples,Beverages,North America
+381,PayPal,United States,10.8,1.4,33.1,51.7,Consumer Discretionary,,North America
+382,Progressive,United States,23.5,1,34.3,22.8,Financials,Property & Casualty Insurance,North America
+383,Svenska Handelsbanken,Sweden,6.4,1.9,289.2,25.9,Financials,Major Banks,Europe
+384,Mitsui Fudosan,Japan,14.9,1.2,46.7,21.1,Financials,Real Estate,Asia
+385,SEB,Sweden,7.7,1.2,288.5,23.8,Financials,Major Banks,Europe
+386,Bank Rakyat Indonesia,Indonesia,8.3,2,74.5,24.2,Financials,Regional Banks,Asia
+387,Texas Instruments,United States,13.4,3.4,16.4,80.5,Information Technology,Semiconductors,North America
+388,Wilmar International,Singapore,41.4,0.984,37,16.1,Consumer Staples,Food Processing,Asia
+389,Daiwa House Industry,Japan,31.9,1.2,29.6,19.1,Industrials,Construction Services,Asia
+390,Baidu,China,10.6,1.7,26.2,59.9,Information Technology,Computer Services,Asia
+391,Consolidated Edison,United States,12.1,1.2,48.3,23.8,Utilities,Electric Utilities,North America
+392,Maybank,Malaysia,7.6,1.6,164.1,20.7,Financials,Regional Banks,Asia
+393,DISH Network,United States,15.1,1.4,28.2,29.1,Consumer Discretionary,Broadcasting & Cable,North America
+394,Citic Securities,China,7.6,1.6,86,27.9,Financials,Investment Services,Asia
+395,American Electric,United States,16.2,0.613,66.2,33.1,Utilities,Electric Utilities,North America
+396,Suzuki Motor,Japan,28.3,1.4,25.9,19.9,Consumer Discretionary,Auto & Truck Manufacturers,Asia
+397,VTB Bank,Russia,19.5,0.699,206.2,14.9,Financials,Regional Banks,Asia
+398,Metallurgical Corp of China,China,32.4,0.806,54.3,15.4,Industrials,Construction Services,Asia
+399,Petrobras,Brazil,81.1,-4.3,247.3,61.3,Energy,Oil & Gas Operations,Africa
+400,Norfolk Southern,United States,9.9,1.7,34.9,36,Industrials,Railroads,North America
+401,TJX Cos,United States,33.2,2.3,12.9,49.1,Consumer Discretionary,Department Stores,North America
+402,Investor AB,Sweden,7.3,3.9,40.7,32.2,Financials,,Europe
+403,American International Group,United States,52.4,-0.849,498.3,60.1,Financials,Diversified Insurance,North America
+404,Sempra Energy,United States,10.2,1.3,47.8,27.5,Utilities,Natural Gas Utilities,North America
+405,International Airlines,United Kingdom,25,2.2,28.9,13.7,Industrials,Airline,Europe
+406,SSE,United Kingdom,37.2,1.1,27.8,18.7,Utilities,Electric Utilities,Europe
+407,eBay,United States,9,7.3,23.8,36.6,Consumer Discretionary,Internet & Catalog Retail,North America
+408,NTPC,India,12.2,1.6,38.7,21.5,Utilities,Electric Utilities,Asia
+409,Old Mutual,United Kingdom,22.1,0.769,208.1,11.7,Financials,Investment Services,Europe
+410,Magna International,Canada,36.4,2,22.6,15.3,Consumer Discretionary,Auto & Truck Parts,North America
+411,China Yangtze Power,China,6.5,2.8,45.3,42.3,Utilities,Electric Utilities,Asia
+412,NN Group,Netherlands,15.6,1.3,177.5,10.3,Energy,,Europe
+413,Sumitomo Mitsui Trust,Japan,9.2,1.5,548.2,12.8,Financials,Major Banks,Asia
+414,General Mills,United States,15.7,1.6,21.7,33.2,Consumer Staples,Food Processing,North America
+415,Talanx,Germany,34.7,1,158.2,8.9,Financials,Diversified Insurance,Europe
+416,The Priceline Group,United States,10.7,2.1,19.8,87,Financials,,North America
+417,EXOR,Italy,152.6,0.483,193,11.9,Financials,Investment Services,Europe
+418,Glencore International,Switzerland,153.7,-0.453,124.6,57.3,Materials,Diversified Metals & Mining,Europe
+419,Vodafone,United Kingdom,60.8,-9.3,175.7,67,Telecommunication Services,Telecommunications services,Europe
+420,Huaneng Power International,China,16.9,1.3,44.5,14.4,Utilities,Electric Utilities,Asia
+421,Standard Bank Group,South Africa,8.6,1.5,142.9,15.9,Financials,Major Banks,Africa
+422,Swiss Life Holding,Switzerland,19.5,0.936,197,10.2,Financials,Life & Health Insurance,Europe
+423,FirstRand,South Africa,8.4,1.7,86.3,18.2,Financials,Major Banks,Africa
+424,Sysco,United States,53.1,1,17.6,28,Consumer Staples,Food Retail,North America
+425,International Paper,United States,21.1,0.904,33.3,20.8,Materials,Paper & Paper Products,North America
+426,Vivendi,France,12,1.4,34.1,24.2,Telecommunication Services,Telecommunications services,Europe
+427,Kimberly-Clark,United States,18.2,2.2,14.6,46.7,Consumer Staples,Household/Personal Care,North America
+428,National Commercial Bank,Saudi Arabia,6.1,2.5,117.7,20.6,Financials,,Asia
+429,Erste Group Bank,Austria,9.2,1.4,220.8,13.5,Financials,Major Banks,Europe
+430,Baoshan Iron & Steel,China,26.8,0.667,40,21.4,Materials,Iron & Steel,Asia
+431,Eni,Italy,61.6,-1.6,135.9,58.2,Energy,Oil & Gas Operations,Europe
+432,Saudi Electricity,Saudi Arabia,13.3,0.561,107.4,26.6,Utilities,Electric Utilities,Asia
+433,Corning,United States,9.4,3.7,27.9,24.9,Information Technology,Communications Equipment,North America
+434,Daikin Industries,Japan,18.5,1.4,20.6,28.4,Materials,Construction Materials,Asia
+435,Mitsubishi Chemical,Japan,31.8,1.4,38.1,11.1,Materials,Diversified Chemicals,Asia
+436,Becton Dickinson,United States,12.4,1.3,24.3,39.2,Health Care,,North America
+437,SK Innovation,South Korea,34.1,1.4,27,13.5,Energy,Oil & Gas Operations,Asia
+438,Humana,United States,54.4,0.594,25.8,30.4,Health Care,Managed Health Care,North America
+439,Emerson Electric,United States,17.2,1.5,17.5,38.3,Industrials,Electrical Equipment,North America
+440,Nippon Steel & Sumitomo Metal,Japan,41.6,0.477,54.6,20.2,Materials,Iron & Steel,Asia
+441,Deutsche Bank,Germany,44.3,-1.9,1686.6,34,Financials,Major Banks,Europe
+442,Toyota Industries,Japan,20,1.1,38.6,14.8,Consumer Discretionary,Auto & Truck Parts,Asia
+443,Pernod Ricard,France,9.7,1.4,33.5,31.4,Consumer Staples,Beverages,Europe
+444,Aon,United Kingdom,11.6,1.4,26.6,31.4,Financials,Insurance Brokers,Europe
+445,IntercontinentalExchange,United States,6,1.4,82,36.2,Financials,Investment Services,North America
+446,Stryker,United States,11.3,1.6,20.4,48.8,Health Care,Medical Equipment & Supplies,North America
+447,Fujifilm Holdings,Japan,21.7,1.1,28.6,18.1,Consumer Discretionary,Consumer Electronics,Asia
+448,Fosun International,China,11.1,1.5,70,13.1,Materials,Iron & Steel,Asia
+449,Sony,Japan,69.2,-0.393,151.7,40.4,Consumer Discretionary,Consumer Electronics,Asia
+450,Chubu Electric Power,Japan,24.2,1.5,45.6,10,Utilities,Electric Utilities,Asia
+451,Las Vegas Sands,United States,11.4,1.7,20.5,44.6,Consumer Discretionary,Casinos & Gaming,North America
+452,Xcel Energy,United States,11.1,1.1,41.2,22.5,Utilities,Electric Utilities,North America
+453,Fifth Third Bancorp,United States,6.7,1.6,142.2,18.8,Financials,Regional Banks,North America
+454,Bouygues,France,35.1,0.81,36.8,14.5,Industrials,Construction Services,Europe
+455,ENGIE,France,73.7,-0.459,167.9,34.8,,,Europe
+456,Steinhoff International,Netherlands,14.5,1.3,27.5,21.1,Consumer Discretionary,Furniture & Fixtures,Europe
+457,Wheelock,Hong Kong,7.8,2.1,67.1,16.7,,,Asia
+458,Marsh & McLennan,United States,13.2,1.8,18.2,37.8,Financials,Insurance Brokers,North America
+459,CBS,United States,13.2,1.3,24.2,29.5,Consumer Discretionary,Broadcasting & Cable,North America
+460,Fujitsu,Japan,41.7,1.2,27.1,12.5,Information Technology,Computer Hardware,Asia
+461,Statoil,Norway,45.7,-2.9,104.5,56.2,Energy,Oil & Gas Operations,Europe
+462,Wesfarmers,Australia,50,0.439,30,37.8,Consumer Staples,Food Retail,Australia
+463,Axis Bank,India,7.8,1.3,80.4,18.8,Financials,Regional Banks,Asia
+464,HeidelbergCement,Germany,16.8,0.782,40.4,18.5,Materials,Construction Materials,Europe
+465,Illinois Tool Works,United States,13.6,2,15.2,45.5,Industrials,Other Industrial Equipment,North America
+466,Formosa Petrochemical,Taiwan,16.9,2.3,14,33.6,Energy,Oil & Gas Operations,Asia
+467,Marriott International,United States,17.1,0.78,24.1,34.9,Consumer Discretionary,Hotels & Motels,North America
+468,Adidas,Germany,21.3,1.1,16,39.6,Consumer Discretionary,Apparel/Accessories,Europe
+469,CLP Holdings,Hong Kong,10.2,1.6,26.6,26.8,Utilities,Electric Utilities,Asia
+470,Thomson Reuters,United States,11.2,1.1,27.9,31.4,Consumer Discretionary,Printing & Publishing,North America
+471,Kering,France,13.7,0.913,25.5,33.7,Consumer Discretionary,Apparel/Accessories,Europe
+472,Colgate-Palmolive,United States,15.2,2.4,12.1,64.9,Consumer Staples,Household/Personal Care,North America
+473,Richemont,Switzerland,11.5,1.1,22.6,44.3,Consumer Discretionary,Specialty Stores,Europe
+474,Shin-Etsu Chemical,Japan,11.3,1.5,21,36.2,Materials,Diversified Chemicals,Asia
+475,Mapfre,Spain,23.3,0.858,67.4,10.5,Financials,Diversified Insurance,Europe
+476,Poste Italiane,Italy,36.6,0.688,203.8,8.6,Consumer Discretionary,,Europe
+477,Aisin Seiki,Japan,31.7,1.1,27.7,13.2,Consumer Discretionary,Auto & Truck Parts,Asia
+478,Mitsubishi,Japan,57,-0.164,129.1,34.7,Utilities,,Asia
+479,Mitsubishi Estate,Japan,10.3,0.869,46.3,25.4,Financials,Real Estate,Asia
+480,PPL,United States,7.5,1.9,38.3,25.4,Utilities,Electric Utilities,North America
+481,Waste Management,United States,13.6,1.2,21.3,32.3,Industrials,Environmental & Waste,North America
+482,Micron Technology,United States,14.7,0.689,32.4,31.6,Information Technology,Semiconductors,North America
+483,Larsen & Toubro,India,15.7,0.814,29.8,24.5,Industrials,Construction Services,Asia
+484,Aegon,Netherlands,36.6,0.501,437.4,10,Financials,Diversified Insurance,Europe
+485,Teva Pharmaceutical,Israel,21.9,0.337,92.9,32.4,Health Care,,Asia
+486,Compass Group,United Kingdom,27.8,1.4,13.7,31.1,Consumer Discretionary,Restaurants,Europe
+487,Suncor Energy,Canada,20.2,0.328,66.1,51.7,Energy,Oil & Gas Operations,North America
+488,EDP-Energias de Portugal,Portugal,16.1,1.1,46.5,12.3,Utilities,Electric Utilities,Europe
+489,Syngenta,Switzerland,12.8,1.2,19.5,40.9,Materials,Specialized Chemicals,Europe
+490,Tenaga Nasional,Malaysia,10.9,1.7,30.9,17.4,Utilities,Electric Utilities,Asia
+491,Credit Suisse Group,Switzerland,29.9,-2.8,806.7,30.1,Financials,Investment Services,Europe
+492,Hana Financial Group,South Korea,11.1,1.1,288.3,9.7,Financials,Regional Banks,Asia
+493,Sampo,Finland,6.9,1.8,39.8,26.5,Financials,Diversified Insurance,Europe
+494,Bank Mandiri,Indonesia,7.5,1,77.1,21.4,Financials,Regional Banks,Asia
+495,Schlumberger,United States,27.8,-1.7,78,109.2,Energy,Oil Services & Equipment,North America
+496,UniCredit Group,Italy,24.4,-13,906.6,33.3,Financials,Major Banks,Europe
+497,M&T Bank,United States,5.7,1.3,123.4,23.5,Financials,Regional Banks,North America
+498,Thales,France,16.5,1,23.9,20.6,Industrials,Aerospace & Defense,Europe
+499,Applied Materials,United States,11.8,2.1,15.2,42,Information Technology,Semiconductors,North America
+500,Royal Bank of Scotland,United Kingdom,21.6,-7.1,986.9,35,Financials,Major Banks,Europe
