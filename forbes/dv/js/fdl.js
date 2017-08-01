@@ -1,3 +1,7 @@
+/**
+ * @author Dharmendra Kumar
+ * Simple force directed layout
+ */
 var FDL = function(rField, fField, xField, rScale, cScale, xScale, data) {
   var tooltip = new Tooltip(d3.select("body"));
 
